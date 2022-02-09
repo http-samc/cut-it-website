@@ -1,3 +1,5 @@
 {
-    "git.ignoreLimitWarning": true
+    "git.ignoreLimitWarning": true,
+    "appService.defaultWebAppToDeploy": "/subscriptions/5474bfef-022b-457f-ac25-04175035d99e/resourceGroups/cutitcards/providers/Microsoft.Web/sites/cutitcards",
+    "appService.deploySubpath": "."
 }

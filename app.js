@@ -14,7 +14,7 @@ app.use(favicon(__dirname + '/assets/img/favicon.ico'));
 
 // Defining routes
 app.get('/', function (req, res) {
-    res.sendFile('index.html', {root: __dirname});
+    res.sendFile('index.html', { root: __dirname });
 })
 
 // Starting server
@@ -22,7 +22,9 @@ app.listen(port, async () => {
     try {
         console.log(`listening on ${port}`);
     }
-    catch(e) {
+    catch (e) {
         console.error(e)
     }
 });
+
+module.exports = app;
